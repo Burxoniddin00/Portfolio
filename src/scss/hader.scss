@@ -1,0 +1,25 @@
+.resume__link {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.resume__header {
+    background: rgb(29, 27, 40);
+    padding: 20px 0;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 1px 3px rgb(74, 73, 73);
+}
+
+.resume__link:hover {
+    color: #13adc7;
+    cursor: pointer;
+}
+
+.resume__header__name {
+    font-weight: 500;
+    font-size: 30px;
+    padding-left: 30px;
+    color: blue;
+}

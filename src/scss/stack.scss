@@ -1,0 +1,34 @@
+.stack__img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.stach__inner {
+    width: 700px;
+    flex-wrap: wrap;
+    gap: 70px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.stack__name {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 26px;
+    color: #cccccc;
+}
+
+.stack__text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 26px;
+    color: #a7a7a7;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.stack{
+    margin-top: 80px;
+    text-align: center;
+}

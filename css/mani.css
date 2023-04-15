@@ -1,0 +1,36 @@
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+  margin-top: 85px;
+}
+
+.resum__dawlont {
+  background: linear-gradient(270deg, #13adc7 0%, #6978d1 66.67%, #945dd6 100%);
+  border-radius: 83px;
+  padding: 10px 15px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  margin-top: 40px;
+}
+
+.resume__name {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -1px;
+  color: #d9d9d9;
+  max-width: 500px;
+}
+
+.resume__img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=mani.css.map */
