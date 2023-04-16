@@ -4,6 +4,7 @@ import { ComMayin } from "./companet/mayin";
 import { Projeck } from "./pages/projeck";
 import { Stack } from "./pages/stack";
 import Header from "./pages/header";
+import { Contact } from "./pages/contact";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<ComMayin />} />
         <Route path="/stack" element={<Stack />} />
         <Route path="/projeck" element={<Projeck />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
     </>
