@@ -10,10 +10,18 @@ const Header = () => {
   return (
     <>
       <div className="resume__header__div flex items-center">
-        <img className="resume__header__img" src={home} alt="home" />
-        <img className="resume__header__img" src={stack} alt="stack" />
-        <img className="resume__header__img" src={projects} alt="projects" />
-        <img className="resume__header__img" src={contact} alt="projects" />
+        <Link to="/">
+          <img className="resume__header__img" src={home} alt="home" />
+        </Link>
+        <Link to="/stack">
+          <img className="resume__header__img" src={stack} alt="stack" />
+        </Link>
+        <Link to="/projeck">
+          <img className="resume__header__img" src={projects} alt="projects" />
+        </Link>
+        <Link to="/contact">
+          <img className="resume__header__img" src={contact} alt="projects" />
+        </Link>
       </div>
       <div className="resume__header flex justify-between items-center">
         <Link to="/">

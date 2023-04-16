@@ -11,9 +11,9 @@ export const Contact = () => {
   return (
     <>
       <div>
-        <div className="project__inner">
-          <h1 className="project__name">My Contact</h1>
-          <p className="projeck__text">Link to contact me</p>
+        <div className="contact__inner">
+          <h1 className="contact__name">My Contact</h1>
+          <p className="contact__text">Link to contact me</p>
         </div>
         <div className="contact__img">
           <a href="https://www.linkedin.com/in/burxoniddin-sotvoldiyev-5a955b272">
