@@ -146,9 +146,7 @@ export const Projeck = () => {
           <img className="projeck__imgen" src={photo6} alt="Rectangle" />
           <div className="projeck__container">
             <h3 className="projeck_item__name">Project CoffeeRoasters</h3>
-            <p className="projeck_item__text">
-              Tech stack : JavaScript, SASS, React, Tailwind
-            </p>
+            <p className="projeck_item__text">Tech stack : Html, Css, SASS,</p>
             <div className="flex justify-between">
               <a
                 className="projeck__link"
