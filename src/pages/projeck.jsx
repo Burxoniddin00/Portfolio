@@ -95,21 +95,21 @@ export const Projeck = () => {
         <li className="projeck__item">
           <img className="projeck__imgen" src={photo4} alt="Rectangle" />
           <div className="projeck__container">
-            <h3 className="projeck_item__name">Project onlayn shop</h3>
+            <h3 className="projeck_item__name">Project calculator</h3>
             <p className="projeck_item__text">
               Tech stack : JavaScript, SASS, React, Tailwind
             </p>
             <div className="flex justify-between">
               <a
                 className="projeck__link"
-                href="https://incomparable-tapioca-844474.netlify.app/"
+                href="https://funny-croquembouche-05a6ef.netlify.app/"
               >
                 <img src={link} alt="link" />
                 Live Preview
               </a>
               <a
                 className="projeck__link"
-                href="https://github.com/Burxoniddin000/onlayn_magazin"
+                href="https://github.com/Burxoniddin000/conclotor.git"
               >
                 <img src={github} alt="github" />
                 View Code
@@ -122,7 +122,7 @@ export const Projeck = () => {
           <div className="projeck__container">
             <h3 className="projeck_item__name">Project Films</h3>
             <p className="projeck_item__text">
-              Tech stack : JavaScript, SASS, React, Tailwind
+              Tech stack : Html, Css, JavaScript, SASS, 
             </p>
             <div className="flex justify-between">
               <a
