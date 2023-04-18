@@ -70,7 +70,7 @@ export const Projeck = () => {
         <li className="projeck__item">
           <img className="projeck__imgen" src={photo3} alt="Rectangle" />
           <div className="projeck__container">
-            <h3 className="projeck_item__name">Project country</h3>
+            <h3 className="projeck_item__name">Project Country</h3>
             <p className="projeck_item__text">
               Tech stack : JavaScript, SASS, React, Tailwind
             </p>
