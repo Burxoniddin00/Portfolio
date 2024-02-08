@@ -1,15 +1,30 @@
 import React from "react";
-import github from "../img/github.png";
-import link from "../img/ink.png";
 import Rectangle from "../img/photo.jpg";
-import photo2 from "../img/photo3.jpg";
-import photo3 from "../img/photo2.jpg";
-import photo4 from "../img/photo4.jpg";
-import photo5 from "../img/photo5.jpg";
-import photo6 from "../img/photo6.jpg";
+import photo2 from "../img/photo2.png";
+import photo3 from "../img/photo3.png";
 import "../scss/projeck.scss";
+import { FaGithub } from "react-icons/fa6";
+import { CiLink } from "react-icons/ci";
 
 export const Projeck = () => {
+  let arr = [
+    {
+      id: 1,
+      imgLink: photo3,
+      name: "Project Kitob o'qi",
+      projeckTech: " Tech stack :Next Js, Tailwind, Scss, Zustand, React-icons",
+      projeckLink: "https://kitob-mutolaa.uz/",
+      projeckGithubLink: "https://github.com/Burxoniddin00/kitob-oq.git",
+    },
+    {
+      id: 2,
+      imgLink: photo2,
+      name: "Project Netflix",
+      projeckTech: " Tech stack :Next Js, Tailwind, Scss, Swiper",
+      projeckLink: "https://rococo-panda-4af575.netlify.app/",
+      projeckGithubLink: "https://github.com/Burxoniddin00/kitob-oq.git",
+    },
+  ];
   return (
     <div className="projeck">
       <div>
@@ -17,6 +32,40 @@ export const Projeck = () => {
         <p className="projeck__text">Things I’ve built so far</p>
       </div>
       <ul className="projeck__inner">
+        {arr.map((e) => (
+          <li key={e.id}>
+            <div className="relative group">
+              <img
+                className="w-[200px] h-[125px] object-cover md:h-[250px]  md:w-[400px] rounded-2xl"
+                src={e.imgLink}
+                alt="Rectangle"
+              />
+              <div className="absolute overflow-y-scroll p-3 text-[#fff] top-0 left-0 w-full h-full rounded-2xl flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                <h3 className="">{e.name}</h3>
+                <p className="mt-2">{e.projeckTech}</p>
+                <div className="flex justify-between gap-3 mt-5">
+                  <a
+                    className="projeck__link"
+                    target="_blank"
+                    href={e.projeckLink}
+                  >
+                    <CiLink size={20} />
+                    Live Preview
+                  </a>
+                  <a
+                    target="_blank"
+                    className="projeck__link mr-2"
+                    href={e.projeckGithubLink}
+                  >
+                    <FaGithub size={20} />
+                    View Code
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        ))}
+        {/* 
         <li className="projeck__item">
           <img className="projeck__imgen" src={Rectangle} alt="Rectangle" />
           <div className="projeck__container">
@@ -45,9 +94,9 @@ export const Projeck = () => {
         <li className="projeck__item">
           <img className="projeck__imgen" src={photo2} alt="Rectangle" />
           <div className="projeck__container">
-            <h3 className="projeck_item__name">Project Boocks</h3>
+            <h3 className="projeck_item__name"></h3>
             <p className="projeck_item__text">
-              Tech stack : Html, JavaScript, Css, SASS
+              
             </p>
             <div className="flex justify-between">
               <a
@@ -122,7 +171,7 @@ export const Projeck = () => {
           <div className="projeck__container">
             <h3 className="projeck_item__name">Project Films</h3>
             <p className="projeck_item__text">
-              Tech stack : Html, Css, JavaScript, SASS, 
+              Tech stack : Html, Css, JavaScript, SASS,
             </p>
             <div className="flex justify-between">
               <a
@@ -164,7 +213,7 @@ export const Projeck = () => {
               </a>
             </div>
           </div>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

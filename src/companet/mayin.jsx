@@ -1,5 +1,5 @@
 import React from "react";
-import man from "../img/ozim1.jpg";
+import man from "../img/img.jpg";
 import "../scss/mani.scss";
 import download from "../img/Resume.pdf";
 
@@ -8,7 +8,7 @@ export const ComMayin = () => {
     <div className=" resume">
       <div className="resume__container">
         <h1 className="resume__name">
-          Hello, my name is Burhoniddin, I am Frotent Developer
+          Hello, my name is Burhoniddin, I am Full-stack Developer
         </h1>
         <div className="resum__dawlont">
           <a href={download} download>

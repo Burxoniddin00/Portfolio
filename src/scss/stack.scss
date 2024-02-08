@@ -1,57 +1,59 @@
 .stack__img {
-    width: 100px;
-    height: 100px;
-    margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
 }
 
 .stach__inner {
-    max-width: 700px;
-    flex-wrap: wrap;
-    gap: 70px;
-    margin: 0 auto;
-    margin-top: 30px;
+  max-width: 1000px;
+  flex-wrap: wrap;
+  gap: 70px;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .stack__name {
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 26px;
-    color: #cccccc;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 26px;
+  color: #cccccc;
 }
 
 .stack__text {
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 40px;
-    color: #a7a7a7;
-    margin-top: 40px;
-    margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  color: #a7a7a7;
+  margin-top: 40px;
+  margin-bottom: 50px;
 }
 
-.stack{
-    margin-top: 80px;
-    text-align: center;
+.stack {
+  margin-top: 80px;
+  text-align: center;
 }
 
 @media screen and (max-width: 800px) {
-    .stack__name {
-        font-weight: 600;
-        font-size: 30px;
-        line-height: 26px;
-        color: #cccccc;
-    }
-    .stack__text {
-        font-weight: 300;
-        font-size: 25px;
-        line-height: 30px;
-        color: #a7a7a7;
-        margin-top: 40px;
-        margin-bottom: 50px;
-    }
-    .stack__img {
-        width: 50px;
-        height: 50px;
-        margin: 0 auto;
-    }
-    
+  .stack__name {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 26px;
+    color: #cccccc;
+  }
+  .stack__text {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 30px;
+    color: #a7a7a7;
+    margin-top: 40px;
+    margin-bottom: 50px;
+  }
+  .stach__inner div p {
+    font-size: 12px;
+  }
+  .stack__img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
 }
