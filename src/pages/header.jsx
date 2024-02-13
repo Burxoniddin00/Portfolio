@@ -5,6 +5,7 @@ import home from "../img/home.png";
 import stack from "../img/stack.png";
 import projects from "../img/projects.png";
 import contact from "../img/contact.png";
+import "animate.css";
 
 const Header = () => {
   return (
@@ -25,7 +26,10 @@ const Header = () => {
       </div>
       <div className="resume__header flex justify-between items-center">
         <Link to="/">
-          <h1 className="resume__header__name"> Frotent Developer</h1>
+          <h1 className="animate__animated animate__bounce   resume__header__name ">
+            {" "}
+            Frotent Developer
+          </h1>
         </Link>
         <ul className=" resum__ul">
           <Link to="/">

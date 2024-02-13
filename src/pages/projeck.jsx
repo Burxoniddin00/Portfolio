@@ -1,5 +1,4 @@
 import React from "react";
-import Rectangle from "../img/photo.jpg";
 import photo2 from "../img/photo2.png";
 import photo3 from "../img/photo3.png";
 import "../scss/projeck.scss";
@@ -41,11 +40,11 @@ export const Projeck = () => {
                 alt="Rectangle"
               />
               <div className="absolute overflow-y-scroll p-3 text-[#fff] top-0 left-0 w-full h-full rounded-2xl flex flex-col justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                <h3 className="">{e.name}</h3>
-                <p className="mt-2">{e.projeckTech}</p>
+                <h3 className="max-md:pt-12 max-md:text-base">{e.name}</h3>
+                <p className="mt-2 max-md:text-xs">{e.projeckTech}</p>
                 <div className="flex justify-between gap-3 mt-5">
                   <a
-                    className="projeck__link"
+                    className="projeck__link max-md:text-sm"
                     target="_blank"
                     href={e.projeckLink}
                   >
@@ -54,7 +53,7 @@ export const Projeck = () => {
                   </a>
                   <a
                     target="_blank"
-                    className="projeck__link mr-2"
+                    className="projeck__link mr-2 max-md:text-sm"
                     href={e.projeckGithubLink}
                   >
                     <FaGithub size={20} />
@@ -65,155 +64,6 @@ export const Projeck = () => {
             </div>
           </li>
         ))}
-        {/* 
-        <li className="projeck__item">
-          <img className="projeck__imgen" src={Rectangle} alt="Rectangle" />
-          <div className="projeck__container">
-            <h3 className="projeck_item__name">Project Twitter</h3>
-            <p className="projeck_item__text">
-              Tech stack : JavaScript, SASS, React, Tailwind
-            </p>
-            <div className="flex justify-between">
-              <a
-                className="projeck__link"
-                href="https://fabulous-sunshine-d4731a.netlify.app/"
-              >
-                <img src={link} alt="link" />
-                Live Preview
-              </a>
-              <a
-                className="projeck__link"
-                href="https://github.com/Burxoniddin000/twister-.git"
-              >
-                <img src={github} alt="github" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="projeck__item">
-          <img className="projeck__imgen" src={photo2} alt="Rectangle" />
-          <div className="projeck__container">
-            <h3 className="projeck_item__name"></h3>
-            <p className="projeck_item__text">
-              
-            </p>
-            <div className="flex justify-between">
-              <a
-                className="projeck__link"
-                href="https://classy-moonbeam-6af94a.netlify.app/login.html"
-              >
-                <img src={link} alt="link" />
-                Live Preview
-              </a>
-              <a
-                className="projeck__link"
-                href="https://github.com/Burxoniddin000/onlayn_magazin.git"
-              >
-                <img src={github} alt="github" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="projeck__item">
-          <img className="projeck__imgen" src={photo3} alt="Rectangle" />
-          <div className="projeck__container">
-            <h3 className="projeck_item__name">Project Country</h3>
-            <p className="projeck_item__text">
-              Tech stack : JavaScript, SASS, React, Tailwind
-            </p>
-            <div className="flex justify-between">
-              <a
-                className="projeck__link"
-                href="https://cerulean-semifreddo-f1b6ba.netlify.app/"
-              >
-                <img src={link} alt="link" />
-                Live Preview
-              </a>
-              <a
-                className="projeck__link"
-                href="https://github.com/Burxoniddin000/amalidars.git"
-              >
-                <img src={github} alt="github" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="projeck__item">
-          <img className="projeck__imgen" src={photo4} alt="Rectangle" />
-          <div className="projeck__container">
-            <h3 className="projeck_item__name">Project calculator</h3>
-            <p className="projeck_item__text">
-              Tech stack : JavaScript, SASS, React, Tailwind
-            </p>
-            <div className="flex justify-between">
-              <a
-                className="projeck__link"
-                href="https://funny-croquembouche-05a6ef.netlify.app/"
-              >
-                <img src={link} alt="link" />
-                Live Preview
-              </a>
-              <a
-                className="projeck__link"
-                href="https://github.com/Burxoniddin000/conclotor.git"
-              >
-                <img src={github} alt="github" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="projeck__item">
-          <img className="projeck__imgen" src={photo5} alt="Rectangle" />
-          <div className="projeck__container">
-            <h3 className="projeck_item__name">Project Films</h3>
-            <p className="projeck_item__text">
-              Tech stack : Html, Css, JavaScript, SASS,
-            </p>
-            <div className="flex justify-between">
-              <a
-                className="projeck__link"
-                href="https://remarkable-entremet-a77ddc.netlify.app/"
-              >
-                <img src={link} alt="link" />
-                Live Preview
-              </a>
-              <a
-                className="projeck__link"
-                href="https://github.com/Burxoniddin000/imtixon.git"
-              >
-                <img src={github} alt="github" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </li>
-        <li className="projeck__item">
-          <img className="projeck__imgen" src={photo6} alt="Rectangle" />
-          <div className="projeck__container">
-            <h3 className="projeck_item__name">Project CoffeeRoasters</h3>
-            <p className="projeck_item__text">Tech stack : Html, Css, SASS,</p>
-            <div className="flex justify-between">
-              <a
-                className="projeck__link"
-                href="https://timely-pasca-ba69c6.netlify.app/"
-              >
-                <img src={link} alt="link" />
-                Live Preview
-              </a>
-              <a
-                className="projeck__link"
-                href="https://github.com/Burxoniddin000/datrs7"
-              >
-                <img src={github} alt="github" />
-                View Code
-              </a>
-            </div>
-          </div>
-        </li> */}
       </ul>
     </div>
   );

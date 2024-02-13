@@ -5,10 +5,10 @@ import download from "../img/Resume.pdf";
 
 export const ComMayin = () => {
   return (
-    <div className=" resume">
+    <div className="resume">
       <div className="resume__container">
-        <h1 className="resume__name">
-          Hello, my name is Burhoniddin, I am Full-stack Developer
+        <h1 className="animate__bounceOut  resume__name ">
+          Hello, my name is Burhoniddin, I am Frotent Developer
         </h1>
         <div className="resum__dawlont">
           <a href={download} download>

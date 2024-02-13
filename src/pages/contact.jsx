@@ -16,22 +16,28 @@ export const Contact = () => {
           <p className="contact__text">Link to contact me</p>
         </div>
         <div className="contact__img">
-          <a href="https://www.linkedin.com/in/burhoniddin-sotvoldiyev-14109927b/">
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/burhoniddin-sotvoldiyev-14109927b/"
+          >
             <img src={linkidin} alt="linkidin" />
           </a>
-          <a href="https://www.facebook.com/BurxoniddinSotvoldiyev">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/BurxoniddinSotvoldiyev"
+          >
             <img src={facebook} alt="facebook" />
           </a>
-          <a href="https://www.instagram.com/burxon1d1n/">
+          <a target="_blank" href="https://www.instagram.com/burxon1d1n/">
             <img src={instagram} alt="instagram" />
           </a>
-          <a href="https://t.me/Burhon1dd1n">
+          <a target="_blank" href="https://t.me/Burhon1dd1n">
             <img src={telegram} alt="Telegram" />
           </a>
-          <a type="tel" href="tel:+998933532717">
+          <a target="_blank" type="tel" href="tel:+998933532717">
             <img src={icons} alt="tel" />
           </a>
-          <a href="https://github.com/Burxoniddin00">
+          <a target="_blank" href="https://github.com/Burxoniddin00">
             <img src={github} alt="github" />
           </a>
         </div>

@@ -1,80 +1,80 @@
 .resume__link {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.resume__header__img{
-    width: 50px;
-    height: 50px;
+.resume__header__img {
+  width: 50px;
+  height: 50px;
 }
-.resume__header__div{
-    position: fixed;
-    justify-content: center;
-    bottom: 0;
-    background: rgb(29, 27, 40);
-    padding: 10px 0;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    box-shadow: 0 0 1px 3px rgb(74, 73, 73);
-    gap: 10px;
-    display: none;
-    width:100%;
-    margin: 0 auto;
-    left: 0;
+.resume__header__div {
+  position: fixed;
+  justify-content: center;
+  bottom: 0;
+  background: rgb(29, 27, 40);
+  padding: 10px 0;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 0 1px 3px rgb(74, 73, 73);
+  gap: 10px;
+  display: none;
+  width: 100%;
+  margin: 0 auto;
+  left: 0;
 }
 
 .resume__header {
-    background: rgb(29, 27, 40);
-    padding: 20px 0;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 0 0 1px 3px rgb(74, 73, 73);
+  background: rgb(29, 27, 40);
+  padding: 20px 0;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0 0 1px 3px rgb(74, 73, 73);
 }
 
 .resume__link:hover {
-    color: #13adc7;
-    cursor: pointer;
+  color: #13adc7;
+  cursor: pointer;
 }
 
 .resume__header__name {
-    font-weight: 500;
-    font-size: 30px;
-    padding-left: 30px;
-    color: blue;
+  font-weight: 500;
+  font-size: 30px;
+  padding-left: 30px;
+  color: blue;
 }
 
-.resum__ul{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    justify-content: end;
-    margin-right: 100px;
+.resum__ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: end;
+  margin-right: 100px;
 }
 
 @media screen and (max-width: 750px) {
-    .resum__ul{
-        display: flex;
-        align-items: center;
-        gap: 30px;
-        justify-content: center;
-        margin: 0 auto;
-    }
+  .resum__ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin: 0 auto;
+  }
 
-    .resume__link {
-        color: #ffffff;
-        font-size: 17px;
-        font-weight: 400;
-    }    
-    
+  .resume__link {
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 400;
+  }
 }
 
-@media screen and (max-width: 400px) {
-    .resume__header{
-        display: none;
-    }
-    .resume__header__div{
-        display: flex;
-        z-index: 11;
-    }
+@media screen and (max-width: 500px) {
+  .resume__header {
+    display: none;
+  }
+  .resume__header__div {
+    display: flex;
+    z-index: 11;
+    margin-top: 10px;
+  }
 }
