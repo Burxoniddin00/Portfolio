@@ -2,6 +2,7 @@ import React from "react";
 import photo2 from "../img/photo2.png";
 import photo3 from "../img/photo3.png";
 import photo4 from "../img/photo4.png";
+import photo5 from "../img/photo5.png";
 import "../scss/projeck.scss";
 import { FaGithub } from "react-icons/fa6";
 import { CiLink } from "react-icons/ci";
@@ -31,6 +32,14 @@ export const Projeck = () => {
       projeckTech: " Tech stack :Next Js, Tailwind, Scss, Swiper ReactIcons",
       projeckLink: "https://stupendous-piroshki-3ac393.netlify.app/",
       projeckGithubLink: "https://github.com/Burxoniddin00/GoogleBooks.git",
+    },
+    {
+      id: 4,
+      imgLink: photo5,
+      name: "Project Countries",
+      projeckTech: " Tech stack :Html , Css ,Js",
+      projeckLink: "https://deft-kitsune-9ac7a4.netlify.app/",
+      projeckGithubLink: "https://github.com/Burxoniddin00/countries.git",
     },
   ];
   return (
