@@ -45,6 +45,7 @@ export const Projeck = () => {
   return (
     <div className="projeck">
       <div>
+        
         <h2 className="projeck__name">Projects</h2>
         <p className="projeck__text">Things I’ve built so far</p>
       </div>
