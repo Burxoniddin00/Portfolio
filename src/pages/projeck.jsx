@@ -45,7 +45,7 @@ export const Projeck = () => {
   return (
     <div className="projeck">
       <div>
-        
+
         <h2 className="projeck__name">Projects</h2>
         <p className="projeck__text">Things I’ve built so far</p>
       </div>
@@ -64,14 +64,14 @@ export const Projeck = () => {
                 <div className="flex justify-between gap-3 mt-5">
                   <a
                     className="projeck__link max-md:text-sm"
-                    target="_blank"
+                    
                     href={e.projeckLink}
                   >
                     <CiLink size={20} />
                     Live Preview
                   </a>
                   <a
-                    target="_blank"
+                    
                     className="projeck__link mr-2 max-md:text-sm"
                     href={e.projeckGithubLink}
                   >
