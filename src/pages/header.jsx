@@ -27,7 +27,6 @@ const Header = () => {
       <div className="resume__header flex justify-between items-center">
         <Link to="/">
           <h1 className="animate__animated animate__bounce   resume__header__name ">
-            {" "}
             Frotent Developer
           </h1>
         </Link>
