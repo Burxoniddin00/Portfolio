@@ -3,6 +3,8 @@ import photo2 from "../img/photo2.png";
 import photo3 from "../img/photo3.png";
 import photo4 from "../img/photo4.png";
 import photo5 from "../img/photo5.png";
+import photo6 from "../img/photo6.png";
+import photo7 from "../img/photo7.png";
 import "../scss/projeck.scss";
 import { FaGithub } from "react-icons/fa6";
 import { CiLink } from "react-icons/ci";
@@ -37,9 +39,25 @@ export const Projeck = () => {
       id: 4,
       imgLink: photo5,
       name: "Project Countries",
-      projeckTech: " Tech stack :Html , Css ,Js",
+      projeckTech: " Tech stack :Html ,Css ,JavaScrip",
       projeckLink: "https://deft-kitsune-9ac7a4.netlify.app/",
       projeckGithubLink: "https://github.com/Burxoniddin00/countries.git",
+    },
+    {
+      id: 5,
+      imgLink: photo6,
+      name: "Project Films",
+      projeckTech: " Tech stack :Html ,Css, JavaScrip",
+      projeckLink: "https://remarkable-entremet-a77ddc.netlify.app/",
+      projeckGithubLink: "https://github.com/Burxoniddin000/imtixon.git",
+    },
+    {
+      id: 6,
+      imgLink: photo7,
+      name: "Project conculator",
+      projeckTech: " Tech stack :Html ,Css ,JavaScrip",
+      projeckLink: "https://funny-croquembouche-05a6ef.netlify.app/",
+      projeckGithubLink: "https://github.com/Burxoniddin000/conclotor.git",
     },
   ];
   return (
@@ -47,7 +65,7 @@ export const Projeck = () => {
       <div>
 
         <h2 className="projeck__name">Projects</h2>
-        <p className="projeck__text">Things I’ve built so far</p>
+        <p className="projeck__text">Some dried things up to this now</p>
       </div>
       <ul className="projeck__inner">
         {arr.map((e) => (

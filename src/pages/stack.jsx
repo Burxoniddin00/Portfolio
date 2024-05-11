@@ -26,7 +26,7 @@ export const Stack = () => {
         <div>
           <h1 className="stack__name">My Tech Stack</h1>
           <p className="stack__text">
-            Technologies I’ve been working with recently
+          Technologies I have recently worked with
           </p>
         </div>
         <div className="flex stach__inner pb-10 justify-center">
